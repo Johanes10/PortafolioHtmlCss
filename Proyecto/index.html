@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!--navegacion del portafolio-->
+
+    <nav>
+        <h1>Johan Steven Cordoba Mauna</h1>
+        <ul class="navegacion">
+            <li><a href="#sobremi" class="nav-link">Acerca de mi</a></li>
+            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li><a href="#contacto" class="nav-link">Contactos</a></li>
+        </ul>
+        <button class="menu-navegacion" id="menu-navegacion">
+            <ion-icon class="barra" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!--navegacion del portafolio-->
+
+    <!--Secciones de la pagina-->
+
+    <section class="herue" id="acerca de">
+
+        <img src="img/wfh_1.svg" alt="imagen de fondo" loading="lazy" class="herue-img">
+
+        <div class="bio animada_animada">
+
+            <h2 class="bio-titulo">Sobre mi</h2>
+
+            <p class="bio-texto">Hola, soy Johan Cordoba, estudiante de Adso en el sena, me gustan los temas sobre desarrollo de software, quisiera tener unos buenos frutos de mi estudio y lograr conseguir un buen trabajo al finalizarlos, además seguir aprendiendo en cuanto a lo que me gusta.</p>
+
+        </div>
+
+    </section>
+    <!--secciones de la pagina-->
+
+    <!--secciones de la pagina 2 -->
+    <section class="mas-sobre">
+        <h2>Mas sobre mi</h2>
+        <p>Soy de la ciudad de Pasto, vine a estudiar un programa a la ciudad de Popayán, por cosas de la vida actualmente estoy estudiando programacion en el Sena.
+        </p>
+    </section>
+    <!--secciones de la pagina 2 -->
+
+    <!--secciones de la pagina 3 -->
+
+    <section class="habilidades" id="habilidades">
+
+        <h2 class="header-habilidades">Habilidades</h2>
+
+        <div class="contenedor-habilidades">
+            <div class="primera-animacion">
+
+
+                <img src="icons/icons8-logotipo-de-java-coffee-cup.svg" alt="Html" loading="lazy" class="icon-icon">
+
+                <img src="icons/icons8-html.svg" alt="visual estudio code" loading="lazy" class="icon-icon">
+
+                <img src="icons/icons8-css.svg" alt="java" loading="lazy" class="icon-icon">
+
+            </div>
+        </div>
+    </section>
+    <!--secciones de la pagina 3 -->
+
+    <!--seccion de proyectos-->
+    <h2 class="titulo-proyecto">Proyectos</h2>
+    <section class="proyecto" id="proyecto">
+        
+        <div class="proyecto-contenedor">
+
+            <img src="img/expenseTracker.png" alt="gastos" loading="lazy" class="proyecto-pic">
+
+            <h3 class="titulo-proyecto">Rastreador de gastos</h3>
+
+            <p class="Detalles-proyecto">Con nuestro innovador rastreador de gastos, controlar tus finanzas nunca
+                fue tan sencillo. Registra tus transacciones al instante, categoriza tus gastos y visualiza fácilmente
+                dónde va tu dinero. Con gráficos claros y análisis detallados, toma el control de tu presupuesto y toma
+                decisiones financieras informadas. ¡Optimiza tus gastos y alcanza tus metas financieras con nuestro
+                rastreador intuitivo y poderoso
+            </p>
+            <a href="#proyectos" target="_blank" class="enlace-proyecto">Ir al proyecto</a>
+        </div>
+        <div class="proyecto-contenedor">
+            <img src="img/netflixClone.png" alt="Netflix" loading="lazy" class="proyecto-pic">
+            <h3 class="titulo-proyecto">Netflix</h3>
+            <p class="Detalles-proyecto">Descubre el fascinante mundo del entretenimiento sin preocuparte por el
+                presupuesto con nuestro rastreador de gastos diseñado para amantes de Netflix. Registra tus
+                suscripciones, analiza tus gastos mensuales y mantén el control de tu inversión en entretenimiento. Ya
+                sea que compartas cuentas o disfrutes de múltiples pantallas, nuestro rastreador te brinda una visión
+                clara de tus costos. ¡Disfruta de tus series y películas favoritas sin sorpresas en tu estado de cuenta
+                al final del mes!
+            </p>
+            <a href="#proyectos" target="_blank" class="enlace-proyecto">Ir al proyecto</a>
+        </div>
+        <div class="proyecto-contenedor">
+            <img src="img/greenyEarth.png" alt="tierra" loading="lazy" class="proyecto-pic">
+            <h3 class="titulo-proyecto">Planeta Tirra</h3>
+            <p class="Detalles-proyecto">"Con nuestro rastreador de gastos, no solo cuidas de tus finanzas, sino también del planeta. Registra tus
+                decisiones de compra ecoamigables, sigue tus gastos relacionados con productos sostenibles y observa
+                cómo contribuyes al bienestar del medio ambiente. Obtén insights sobre tu huella ecológica y toma
+                medidas informadas para vivir de manera más sostenible. ¡Descubre cómo cada pequeña elección puede
+                marcar la diferencia tanto en tu presupuesto como en la salud de nuestro preciado planeta!
+            </p>
+            <a href="#proyectos" target="_blank" class="enlace-proyecto">Ir al proyecto</a>
+        </div>
+    </section>
+    <!--seccion de proyectos-->
+
+    <!--seccion de contactos-->
+    <section class="sec-contactos" id="sec-contactos">
+        <h2>Contactame</h2>
+        <div class="fomr-contactos-contenedor">
+            <div class="form-contactos">
+                <form action="https://formspree.io/f/xyylngw" method="post">
+                    <div class="control-formulario">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Escribe tu nombre" class="input-fiel" required>
+                    </div>
+                    <div class="control-formulario">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" id="email" name="sender-name" placeholder="Ingreso de Correo" class="input-fiel" required>
+                        <div class="control-formulario">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" cols="60" rows="10" placeholder="Escribe tu mensaje" class="input-fiel" required></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar" id="submit-b" class="submit-b">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--seccion de contactos-->
+
+    <!--Iconos-->
+    <div class="sociales">
+        <a href="#" target="_blank">
+            <img src="icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="social">
+        </a>
+        <img src="icons/icons8-instagram.gif" alt="Instragram" loading="lazy" class="social">
+        <img src="icons/icons8-linkedin-circled.gif" alt="Likedin" loading="lazy" class="social">
+    </div>
+    <!--Iconos-->
+
+    <!--Derechos de autor-->
+    <footer>
+        <p class="copy">Johan Steven Cordoba Mauna</p>
+        <p class="copy">2023</p>
+        <a href="jcordoba@gmail.com" target="_blank">Gmail</a>
+    </footer>
+    <!--Derechos de autor-->
+    
+    
+</body>
+
+</html>
